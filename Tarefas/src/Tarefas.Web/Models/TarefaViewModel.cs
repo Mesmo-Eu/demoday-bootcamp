@@ -22,6 +22,8 @@ namespace Tarefas.Web.Models {
         [Required(ErrorMessage = "A informação de conclusão é obrigatória.")]
         [DisplayName("Concluída")]
         public bool Concluida { get; set; }
+
+        public int UsuarioId { get; set; }
     }
 
 }
